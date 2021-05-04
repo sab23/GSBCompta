@@ -1,0 +1,25 @@
+﻿[*.cs]
+
+# CA1031: Ne pas intercepter les types d'exception générale
+dotnet_diagnostic.CA1031.severity = silent
+
+# CA1305: Spécifier IFormatProvider
+dotnet_diagnostic.CA1305.severity = silent
+
+# IDE0055: Corriger la mise en forme
+dotnet_diagnostic.IDE0055.severity = silent
+
+# CA2000: Supprimer les objets avant la mise hors de portée
+dotnet_diagnostic.CA2000.severity = silent
+
+# CA2119: Sceller les méthodes qui satisfont les interfaces privées
+dotnet_diagnostic.CA2119.severity = silent
+
+# CA2100: Vérifier si les requêtes SQL présentent des failles de sécurité
+dotnet_diagnostic.CA2100.severity = none
+
+# IDE0044: Ajouter un modificateur readonly
+dotnet_style_readonly_field = true:silent
+
+# CS0108: Un membre masque un membre hérité ; le mot clé new est manquant
+dotnet_diagnostic.CS0108.severity = none
