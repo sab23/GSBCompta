@@ -45,100 +45,106 @@
             // 
             // textBoxAmount
             // 
-            this.textBoxAmount.Location = new System.Drawing.Point(114, 203);
+            this.textBoxAmount.Location = new System.Drawing.Point(128, 254);
+            this.textBoxAmount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxAmount.Name = "textBoxAmount";
-            this.textBoxAmount.Size = new System.Drawing.Size(231, 22);
+            this.textBoxAmount.Size = new System.Drawing.Size(259, 26);
             this.textBoxAmount.TabIndex = 0;
             // 
             // labelMontantOffPrice
             // 
             this.labelMontantOffPrice.AutoSize = true;
-            this.labelMontantOffPrice.Location = new System.Drawing.Point(25, 208);
+            this.labelMontantOffPrice.Location = new System.Drawing.Point(28, 260);
             this.labelMontantOffPrice.Name = "labelMontantOffPrice";
-            this.labelMontantOffPrice.Size = new System.Drawing.Size(67, 17);
+            this.labelMontantOffPrice.Size = new System.Drawing.Size(76, 20);
             this.labelMontantOffPrice.TabIndex = 1;
             this.labelMontantOffPrice.Text = "Montant :";
             // 
             // labelDateOffPrice
             // 
             this.labelDateOffPrice.AutoSize = true;
-            this.labelDateOffPrice.Location = new System.Drawing.Point(25, 169);
+            this.labelDateOffPrice.Location = new System.Drawing.Point(28, 211);
             this.labelDateOffPrice.Name = "labelDateOffPrice";
-            this.labelDateOffPrice.Size = new System.Drawing.Size(46, 17);
+            this.labelDateOffPrice.Size = new System.Drawing.Size(52, 20);
             this.labelDateOffPrice.TabIndex = 2;
             this.labelDateOffPrice.Text = "Date :";
             // 
             // textBoxUser
             // 
-            this.textBoxUser.Location = new System.Drawing.Point(114, 51);
+            this.textBoxUser.Location = new System.Drawing.Point(128, 64);
+            this.textBoxUser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxUser.Name = "textBoxUser";
             this.textBoxUser.ReadOnly = true;
-            this.textBoxUser.Size = new System.Drawing.Size(231, 22);
+            this.textBoxUser.Size = new System.Drawing.Size(259, 26);
             this.textBoxUser.TabIndex = 5;
             // 
             // labelUser
             // 
             this.labelUser.AutoSize = true;
-            this.labelUser.Location = new System.Drawing.Point(25, 51);
+            this.labelUser.Location = new System.Drawing.Point(28, 64);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(83, 17);
+            this.labelUser.Size = new System.Drawing.Size(92, 20);
             this.labelUser.TabIndex = 4;
             this.labelUser.Text = "Utilisateur : ";
             // 
             // textBoxMonth
             // 
-            this.textBoxMonth.Location = new System.Drawing.Point(114, 89);
+            this.textBoxMonth.Location = new System.Drawing.Point(128, 111);
+            this.textBoxMonth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxMonth.Name = "textBoxMonth";
             this.textBoxMonth.ReadOnly = true;
-            this.textBoxMonth.Size = new System.Drawing.Size(231, 22);
+            this.textBoxMonth.Size = new System.Drawing.Size(259, 26);
             this.textBoxMonth.TabIndex = 7;
             // 
             // labelMonth
             // 
             this.labelMonth.AutoSize = true;
-            this.labelMonth.Location = new System.Drawing.Point(25, 89);
+            this.labelMonth.Location = new System.Drawing.Point(28, 111);
             this.labelMonth.Name = "labelMonth";
-            this.labelMonth.Size = new System.Drawing.Size(45, 17);
+            this.labelMonth.Size = new System.Drawing.Size(50, 20);
             this.labelMonth.TabIndex = 6;
             this.labelMonth.Text = "Mois :";
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(114, 125);
+            this.textBoxName.Location = new System.Drawing.Point(128, 156);
+            this.textBoxName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(231, 22);
+            this.textBoxName.Size = new System.Drawing.Size(259, 26);
             this.textBoxName.TabIndex = 9;
             // 
             // labelName
             // 
             this.labelName.AutoSize = true;
-            this.labelName.Location = new System.Drawing.Point(25, 130);
+            this.labelName.Location = new System.Drawing.Point(28, 162);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(61, 17);
+            this.labelName.Size = new System.Drawing.Size(66, 20);
             this.labelName.TabIndex = 8;
             this.labelName.Text = "Libelle : ";
             // 
             // labelFile
             // 
             this.labelFile.AutoSize = true;
-            this.labelFile.Location = new System.Drawing.Point(25, 249);
+            this.labelFile.Location = new System.Drawing.Point(28, 311);
             this.labelFile.Name = "labelFile";
-            this.labelFile.Size = new System.Drawing.Size(78, 17);
+            this.labelFile.Size = new System.Drawing.Size(88, 20);
             this.labelFile.TabIndex = 11;
             this.labelFile.Text = "Justificatif :";
             // 
             // textBoxFile
             // 
-            this.textBoxFile.Location = new System.Drawing.Point(114, 244);
+            this.textBoxFile.Location = new System.Drawing.Point(128, 305);
+            this.textBoxFile.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxFile.Name = "textBoxFile";
-            this.textBoxFile.Size = new System.Drawing.Size(231, 22);
+            this.textBoxFile.Size = new System.Drawing.Size(259, 26);
             this.textBoxFile.TabIndex = 10;
             // 
             // buttonUpdate
             // 
-            this.buttonUpdate.Location = new System.Drawing.Point(28, 317);
+            this.buttonUpdate.Location = new System.Drawing.Point(32, 396);
+            this.buttonUpdate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(317, 38);
+            this.buttonUpdate.Size = new System.Drawing.Size(357, 48);
             this.buttonUpdate.TabIndex = 12;
             this.buttonUpdate.Text = "Enregistrer";
             this.buttonUpdate.UseVisualStyleBackColor = true;
@@ -146,16 +152,17 @@
             // 
             // dateTimePicker
             // 
-            this.dateTimePicker.Location = new System.Drawing.Point(114, 169);
+            this.dateTimePicker.Location = new System.Drawing.Point(128, 211);
+            this.dateTimePicker.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(231, 22);
+            this.dateTimePicker.Size = new System.Drawing.Size(259, 26);
             this.dateTimePicker.TabIndex = 13;
             // 
             // DetailsOffPrice
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 383);
+            this.ClientSize = new System.Drawing.Size(421, 483);
             this.Controls.Add(this.dateTimePicker);
             this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.labelFile);
@@ -169,6 +176,7 @@
             this.Controls.Add(this.labelDateOffPrice);
             this.Controls.Add(this.labelMontantOffPrice);
             this.Controls.Add(this.textBoxAmount);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "DetailsOffPrice";
             this.Text = "Frais Hors Forfait";
             this.Load += new System.EventHandler(this.DetailsOffPrice_Load);
